@@ -1,0 +1,196 @@
+/*--------------full page selection---------------*/
+ nav{
+ 	background-color: white;
+  border: 2px solid #88d1f1;
+ }
+  /*-----------------navigation--------------*/
+ body{
+ 	background-image: url("https://images.hdqwalls.com/download/dark-apple-mac-pro-4k-04-2880x1800.jpg");
+ 	font-family:  "Comic Sans MS",serif;
+ }
+/*-------------------------index page carousel---------------*/
+form{
+	margin: 7px;
+}
+/*-------------------------index page---------------*/
+nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display:block;
+}
+/*------------------------body-----------*/
+h1,p,label{
+	color: white;
+	  font-family: "Comic Sans MS";
+}
+
+h2{
+	color: black;
+	  font-family: "Comic Sans MS";
+}
+
+li{
+	text-align: left;
+}
+.col-sm-3{
+	border: 1px solid #FFFFFF;
+	width:350px;
+	margin: 20px;
+}
+.container1{
+	background-origin:black;
+}
+/* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+	height: 450px;
+}
+.row.content {
+	height:auto;} 
+    }
+.mark marquee,marquee{
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size:20px;
+  font-family: "Comic Sans MS";
+  color:white;
+  transform: translate(-50%, -50%);
+}
+footer {
+  padding: 1px;
+  background-image: url("https://images.hdqwalls.com/download/dark-apple-mac-pro-4k-04-2880x1800.jpg");
+  display: block;
+  height: 120px; 
+  bottom: 0; 
+  width: 100%;
+  border: 2px solid #FFFFFF;
+
+}
+/*----------footer-------*/
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.infobtn{
+   width: auto;
+  padding: 10px 18px;
+  background-color: green;	
+}
+
+.container9 {
+  padding: 16px;
+  margin: 20px;
+  padding-bottom: 15px;
+  background-color: black;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
